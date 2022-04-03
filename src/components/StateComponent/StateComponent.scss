@@ -1,0 +1,7 @@
+.stateComponent {
+    border-left: 3px solid #e6e6e6;
+}
+
+.stateComponent:first-child {
+    border-left: 0;
+}

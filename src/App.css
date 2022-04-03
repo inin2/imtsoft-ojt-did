@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "S-CoreDream-5Medium";
+	src: url("./assets/fonts/SCDream5.otf") format("truetype");
+}
+
+@font-face {
+	font-family: "S-CoreDream-6Bold";
+	src: url("./assets/fonts/SCDream6.otf") format("truetype");
+}
+
+@font-face {
+	font-family: "SubwaySansCond-Bold";
+	src: url("./assets/fonts/Subway Sans LCG-Semibold.otf") format("truetype");
+}
+
+@font-face {
+	font-family: "SubwaySansCond-Black";
+	src: url("./assets/fonts/Subway Sans LCG-Bold.otf") format("truetype");
+}

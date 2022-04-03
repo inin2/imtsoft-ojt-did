@@ -1,0 +1,25 @@
+.stateBody {
+    height: 85vh;
+    padding: 0 20px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    .contents {
+        padding: 50px 0;
+        text-align: center;
+
+        span {
+            font-size: 2rem;
+        }
+    }
+
+    .number_wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        /* flex: 1; */
+    }
+}

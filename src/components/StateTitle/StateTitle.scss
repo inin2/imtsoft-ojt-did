@@ -1,0 +1,42 @@
+.stateTitle {
+    min-height: 100px;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+        font: {
+            size: 3rem;
+            family: "S-CoreDream-6Bold";
+        }
+        
+        // 더블클릭시 단어 블록 해제
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
+
+.stateTitle.finsih span {
+    color: #fff;
+}
+
+.stateComponent:nth-of-type(1) .stateTitle {
+    background-color: #f2b700;   
+
+    span {
+        cursor: pointer;
+    }
+}
+
+.stateComponent:nth-of-type(2) .stateTitle {
+    background-color: #97d700;   
+}
+
+.stateComponent:nth-of-type(3) .stateTitle {
+    background-color: #008938;   
+}

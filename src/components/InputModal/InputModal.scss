@@ -1,0 +1,15 @@
+.startNumForm {
+    input {
+        margin-right: 10px;
+        width: 15rem;
+        height: 4rem;
+        border-radius: 5rem;
+        border: 1px solid #ccc;
+        text-indent: 1rem;
+    }
+
+    &::-webkit-outer-spin-button, ::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
